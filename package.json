@@ -1,0 +1,38 @@
+{
+  "name": "di-inject-fn-examples",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.config.cjs --mode=development",
+    "prod": "webpack --config webpack.config.cjs --mode=production"
+  },
+  "dependencies": {
+    "@owja/ioc": "^1.0.1",
+    "awilix": "^4.2.6",
+    "bottlejs": "^2.0.0",
+    "constitute": "^1.6.2",
+    "di-box": "^0.1.0",
+    "injection-js": "^2.4.0",
+    "inversify": "^5.0.1",
+    "node-dependency-injection": "^2.6.8",
+    "power-di": "^2.3.17",
+    "reflect-metadata": "^0.1.13",
+    "tsyringe": "^4.3.0",
+    "typedi": "^0.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.11.6",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-function-bind": "^7.10.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.10.5",
+    "@babel/preset-env": "^7.7.5",
+    "babel-loader": "^8.0.6",
+    "ts-loader": "^8.0.3",
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "3.11.0"
+  }
+}
